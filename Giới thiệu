@@ -1,0 +1,22 @@
+# Hệ thống Quản lý Thí nghiệm PCHY
+
+Hệ thống Quản lý Thí nghiệm PCHY là phần mềm nội bộ hỗ trợ số hóa toàn bộ quy trình thí nghiệm thiết bị tại Tổng Công ty Điện lực Hưng Yên. 
+Dự án nhằm tự động hóa quy trình tạo yêu cầu thí nghiệm, giao nhiệm vụ, thực hiện thí nghiệm, ký biên bản số và bàn giao kết quả, giúp tối ưu hiệu suất, đảm bảo tính minh 
+bạch, bảo mật và chính xác trong công tác quản lý thiết bị kỹ thuật.
+
+## ⚙️ Các tính năng chính
+- Tạo mới, sửa, xóa các yêu cầu thí nghiệm (Hợp đồng, Sự cố, Kế hoạch).
+- Giao nhiệm vụ cho các đơn vị thực hiện.
+- Nhập khối lượng thiết bị và quản lý phát sinh.
+- Quản lý khảo sát và lập phương án thi công.
+- Thực hiện thí nghiệm và quản lý biên bản điện tử.
+- Ký số theo quy trình 3 bước: ký nháy → trưởng phòng kỹ thuật → giám đốc.
+- Bàn giao kết quả cho các bên liên quan.
+
+## 🧱 Kiến trúc hệ thống
+- Backend: ASP.NET Core
+- Frontend: next.js
+- Cơ sở dữ liệu: Oracle
+- Phân quyền người dùng chặt chẽ theo nhóm vai trò (admin, kỹ thuật viên,..)
+
+
